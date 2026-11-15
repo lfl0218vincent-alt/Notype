@@ -4,7 +4,7 @@
 
 **[下载 Mac 安装包](https://github.com/lfl0218vincent-alt/Notype/releases/latest/download/Notype-Mac-AppleSilicon.zip)** · **[查看版本与更新说明](https://github.com/lfl0218vincent-alt/Notype/releases/latest)**
 
-当前发布：**0.7.5（build 29）**。这是公开安装包与教程仓库，不包含应用开发源码。
+当前发布：**0.8.0（build 30）**。这是公开安装包与教程仓库，不包含应用开发源码。
 
 ## 安装前先看
 
@@ -35,6 +35,7 @@
 - 划词翻译、总结、复制和系统朗读；可在首页关闭。
 - 本地历史与个人词典，支持设置文本保留时间。
 - 开始/结束提示音试听、快捷键检测、状态栏图标开关。
+- 设置及 Notype 菜单中的“检查更新”，支持验证后下载、安装和重新打开，保留原数据。
 - 累计用量统计与每页 26 周的使用日历，可用左右箭头翻看早期记录。
 
 ## 数据与反馈
