@@ -1,0 +1,46 @@
+# Notype for Mac
+
+让想法，自然落字。在原输入框里说话，将整理或翻译好的文字填回光标位置，由你检查后手动发送。
+
+**[下载 Mac 安装包](https://github.com/lfl0218vincent-alt/Notype/releases/latest/download/Notype-Mac-AppleSilicon.zip)** · **[查看版本与更新说明](https://github.com/lfl0218vincent-alt/Notype/releases/latest)**
+
+当前发布：**0.7.5（build 29）**。这是公开安装包与教程仓库，不包含应用开发源码。
+
+## 安装前先看
+
+- 适用 Apple Silicon（M 系列）Mac；系统部署目标为 macOS 13 或以上。当前构建在 macOS 27.2 验证，其他版本仍需实际验收。没有 Intel、Windows 或手机安装版。
+- 当前为本地 ad-hoc 签名，尚未经过 Apple Developer ID 签名和公证。首次打开可能被系统阻止，请先阅读安装教程；GitHub 发布不代表 Apple 已审核。
+- 需要麦克风及辅助功能权限，并使用你自己的 API Key。安装包没有附带他人的密钥、历史或账户额度。
+- 无需安装 Xcode、Python、Node.js 或模型文件。API 是在线服务，识别和文字处理需要联网；服务费用及可用性以你的账户为准。
+
+## 三步开始
+
+1. 下载上面的 **Notype-Mac-AppleSilicon.zip**，解压，把 **Notype.app** 放入“应用程序”。请勿下载 GitHub 自动生成的 `Source code (zip)` 作为安装包。
+2. 按 [安装教程](INSTALL.md) 开启权限，再按 [API 配置教程](API-SETUP.md) 选择服务商并保存你自己的 Key。
+3. 在空白输入框里单按并松开 **Fn**，说话后再按 **Fn**。文字会自动尝试填入，不自动发送。**Fn + Shift** 开始翻译，结束仍按 Fn。
+
+想让 Codex 帮助安装：把 [给 Codex 的安装指令](CODEX-INSTALL.txt) 全文复制到自己电脑上的 Codex，并允许它访问需要的文件和应用。系统身份验证、账户登录、付款和密钥填写由你本人完成。
+
+## 包内文件
+
+- `Notype.app`：可直接安装的应用。
+- `安装教程.html`：下载、安装、系统权限、首次测试与更新步骤。
+- `API配置教程.html`：OpenAI、DeepSeek、Groq 与自定义服务的填写方法。
+- `给Codex的安装指令.txt`：可复制给 Codex 的操作指令。
+- `先读我.txt` 与 `CONTENTS-SHA256.txt`：快速入口与包内文件校验。
+
+## 功能
+
+- 原语言语音输入、整理与翻译，完成后填回原输入框，不自动发送。
+- 划词翻译、总结、复制和系统朗读；可在首页关闭。
+- 本地历史与个人词典，支持设置文本保留时间。
+- 开始/结束提示音试听、快捷键检测、状态栏图标开关。
+- 累计用量统计与每页 26 周的使用日历，可用左右箭头翻看早期记录。
+
+## 数据与反馈
+
+录音会发送到你选择的语音服务；识别文字和词典用于文字整理/翻译。使用划词总结时，所选文字及同一会话已加载的附近文本会发送至文字服务。API Key 保存在当前 Mac 的钥匙串，历史与词典保存在当前用户的本地数据目录。删除历史文本后，日期、字词数和时长等统计可能继续保留。
+
+账户和模型权限因人而异，不能仅凭“Key 已保存”判断服务已连通。首次使用请按教程完成一条无私密内容的实测。模型生成的名称、数字和语气请在发送前检查。
+
+遇到问题可在 [Issues](https://github.com/lfl0218vincent-alt/Notype/issues) 提交 macOS 版本、Notype 版本和错误提示。请勿上传 API Key、私人聊天记录或录音。
