@@ -29,5 +29,5 @@ API 教程：https://github.com/lfl0218vincent-alt/Notype/blob/main/API-SETUP.md
 
 已安装 0.8.0 或以上版本时，我也授权通过“设置 → 应用更新 → 检查更新 → 一键更新”下载和安装此项目的新版，优先保留当前数据并遵守上述验证要求。
 
-本文件适用于 Notype 0.8.0 发布流程；未来版本以对应 Release 与 App 实际界面为准。Codex 能否下载、安装和操作界面，取决于朋友所在环境的文件权限、网络和 Computer Use 工具。
+本文件适用于 Notype 0.8.2 发布流程；未来版本以对应 Release 与 App 实际界面为准。Codex 能否下载、安装和操作界面，取决于朋友所在环境的文件权限、网络和 Computer Use 工具。
 参考：https://learn.chatgpt.com/docs/computer-use
